@@ -1,8 +1,23 @@
-#content {
+#title {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 650px;
+  width: 800px;
+}
+
+#about-me {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 800px;
+}
+
+.about-me-images {
+  display: inline-block;
+  width:225px;
+  padding:10px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 #socials {
