@@ -13,24 +13,31 @@
   margin-bottom: auto;
 }
 
-a {
+#link-github {
   display: inline-block;
-  border-radius: 32px;
-  height: 64px;
-  width: 64px;
+  border-radius: 16px;
+  height: 32px;
+  width: 32px;
+}
+
+#link-linkedin {
+  display: inline-block;
+  border-radius: 16px;
+  height: 32px;
+  width: 32px;
 }
 
 #spacer {
-  width: 64px;
+  width: 32px;
 }
 
 #logo-github {
-  width: 64px;
+  width: 32px;
   border-radius: 50%;
 }
 
 #logo-linkedin {
-  width: 64px;
+  width: 32px;
   border-radius: 50%;
 }
 
