@@ -1,9 +1,41 @@
 #content {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   width: 650px;
 }
 
-#greeting-container {
-  margin-top: 20px;
+#socials {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
+
+a {
+  display: inline-block;
+  border-radius: 32px;
+  height: 64px;
+  width: 64px;
+}
+
+#spacer {
+  width: 64px;
+}
+
+#logo-github {
+  width: 64px;
+  border-radius: 50%;
+}
+
+#logo-linkedin {
+  width: 64px;
+  border-radius: 50%;
+}
+
+.center {
+  text-align:center;
+}
+
+
