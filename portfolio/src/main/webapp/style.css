@@ -1,4 +1,6 @@
+
 #title {
+  font-family: 'Open Sans', sans-serif;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -6,11 +8,14 @@
 }
 
 #about-me {
+  font-family: 'Open Sans', sans-serif;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
   background: linear-gradient(#89cff0, transparent);
-  padding:10px;
+  padding-top: 1px;
+  padding-left:10px;
+  padding-right:10px;
   border-radius: 5px;
   width: 800px;
 }
