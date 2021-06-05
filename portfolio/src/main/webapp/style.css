@@ -1,10 +1,45 @@
-
 #title {
   font-family: 'Open Sans', sans-serif;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 800px;
+}
+
+#socials {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: auto;
+}
+
+#link-github {
+  display: inline-block;
+  border-radius: 16px;
+  height: 32px;
+  width: 32px;
+}
+
+#link-linkedin {
+  display: inline-block;
+  border-radius: 16px;
+  height: 32px;
+  width: 32px;
+}
+
+#logo-github {
+  width: 32px;
+  border-radius: 50%;
+}
+
+#logo-linkedin {
+  width: 32px;
+  border-radius: 50%;
+}
+
+#spacer {
+  width: 32px;
 }
 
 #about-me {
@@ -75,45 +110,3 @@
   padding: 10px;
   width: 100px;
 }
-
-#socials {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 32px;
-  margin-bottom: auto;
-}
-
-#link-github {
-  display: inline-block;
-  border-radius: 16px;
-  height: 32px;
-  width: 32px;
-}
-
-#link-linkedin {
-  display: inline-block;
-  border-radius: 16px;
-  height: 32px;
-  width: 32px;
-}
-
-#spacer {
-  width: 32px;
-}
-
-#logo-github {
-  width: 32px;
-  border-radius: 50%;
-}
-
-#logo-linkedin {
-  width: 32px;
-  border-radius: 50%;
-}
-
-.center {
-  text-align:center;
-}
-
-
