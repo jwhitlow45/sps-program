@@ -1,0 +1,12 @@
+.experience {
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+  text-align: left;
+}
+
+.experience-images {
+  text-align: left;
+  margin-right: 50px;
+  padding: 10px;
+  width: 100px;
+}

@@ -1,0 +1,22 @@
+#title {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 800px;
+}
+
+.header {
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  width: 800px;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: auto;
+  width: 800px;
+}
