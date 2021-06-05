@@ -8,9 +8,22 @@
 
 .header {
   margin: auto;
+  margin-bottom: 0px;
   font-family: 'Open Sans', sans-serif;
   width: 800px;
   text-align: left;
+}
+
+.paragraph {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  padding-top: 0px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius: 5px;
+  width: 750px;
 }
 
 .container {
