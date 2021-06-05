@@ -3,12 +3,51 @@
   <head>
     <meta charset="UTF-8">
     <title>Jacob Whitlow's Experience</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="../css/experience.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/utils.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans' type='text/css'>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
+    <div id="title"><h1>Jacob Whitlow's Experience</h1></div>
+    <!-- Navigation bar start -->
+    <div id="nav-placeholder">
 
+    </div>
+
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!-- Navigation bar end -->
+    <div id="experience-header" class="header">
+      <h3>Experience:</h3>
+    </div>
+    <div class="container">
+      <div id="experience-0">
+        <a id="link-ciwa" href="https://www.apanagopoulos.com/projects">
+          <img id="logo-ciwa" src="../images/logo/logo-ciwa.png" class="experience-images">
+        </a>
+      </div>
+      <div id="experience-0-text" class="experience">
+        <p><b>Data Science Research Team Lead</b></p>
+        <p><i>California Irrigation Web Application Project</i></p>
+        <p>03/2021 - Current</p>
+      </div>
+    </div>
+    <div class="container">
+      <div id="experience-1">
+        <a id="link-ciwa" href="https://www.apanagopoulos.com/projects">
+          <img id="logo-ciwa" src="../images/logo/logo-ciwa.png" class="experience-images">
+        </a>
+      </div>
+      <div id="experience-1-text" class="experience">
+        <p><b>Data Science Researcher</b></p>
+        <p><i>California Irrigation Web Application Project</i></p>
+        <p>09/2020 - 03/2021</p>
+      </div>
+    </div>
   </body>
 </html>
