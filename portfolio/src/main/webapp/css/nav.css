@@ -47,6 +47,7 @@
 
 .nav-bar-items {
   display: inline-flex;
+  margin-top: 8px;
 }
 
 .nav-bar-anchors {
