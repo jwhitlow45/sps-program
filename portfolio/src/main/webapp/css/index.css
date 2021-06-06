@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 #page-heading {
   font-family: 'Open Sans', sans-serif;
   margin-left: auto;
