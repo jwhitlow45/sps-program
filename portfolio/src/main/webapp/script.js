@@ -15,6 +15,35 @@
 /**
  * Adds a random greeting to the page.
  */
-function addRandomGreeting() {
-  
+function display_landing_page()
+{
+  $("#content").load("/html/about-me.html" );
+}
+
+function load_navigation_bar()
+{
+  $("#navigation-bar").load("/html/nav.html");
+}
+
+function change_page_content()
+{
+  $(document).ready(function()  
+  {  
+    $("#about-me-button").click(function()  
+    {  
+        $("#content").load("html/about-me.html"); 
+    });
+    $("#education-button").click(function()  
+    {  
+        $("#content").load("html/education.html"); 
+    });
+    $("#experience-button").click(function()  
+    {  
+        $("#content").load("html/experience.html"); 
+    });
+    $("#references-button").click(function()  
+    {  
+        $("#content").load("html/references.html"); 
+    });
+  });
 }
