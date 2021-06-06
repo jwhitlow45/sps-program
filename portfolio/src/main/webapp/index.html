@@ -4,48 +4,38 @@
     <meta charset="UTF-8">
     <title>Jacob Whitlow's Portfolio</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/about-me.css">
+    <link rel="stylesheet" href="css/education.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/references.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/utils.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans' type='text/css'>
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
-  <body>
-    <div id="title"><h1>Jacob Whitlow's Portfolio</h1></div>
-    <!-- Navigation bar start -->
-    <div id="nav-placeholder">
-
+  <body onload="change_page_content();">
+    <div id="page-heading"><h1>Jacob Whitlow's Portfolio</h1></div>
+    <div id="navigation-bar">
+      <div id="socials">
+        <a id="link-github" href="https://www.github.com/jwhitlow45">
+          <img id="logo-github" src="../images/logo/logo-github.png" />
+        </a>
+        <img id="spacer"/>
+        <a id="link-linkedin" href="https://www.linkedin.com/in/jwhitlow45">
+            <img id="logo-linkedin" src="../images/logo/logo-linkedin.png" />
+        </a>
     </div>
-
-    <script>
-    $(function(){
-      $("#nav-placeholder").load("html/nav.html");
-    });
-    </script>
-    <!-- Navigation bar end -->
-    <div id="about-me" class="header">
-      <h3>About Me:</h3>
+  <ul id="nav-bar">
+    <li id="about-me-button" class="nav-bar-items"><a href="#about-me" class="nav-bar-anchors">About Me</a></li>
+    <li id="education-button" class="nav-bar-items"><a href="#education" class="nav-bar-anchors">Education</a></li>
+    <li id="experience-button" class="nav-bar-items"><a href="#experience" class="nav-bar-anchors">Experience</a></li>
+    <li id="references-button" class="nav-bar-items"><a href="#references" class="nav-bar-anchors">References</a></li>
+    <li id="secret-area-button" class="nav-bar-items"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="nav-bar-anchors">Secret Area</a></li>
+  </ul>
     </div>
-    <div id="about-me-description" class="paragraph">
-      <p>
-        I am a computer science student from the Central Valley of California currently attending California State University, Fresno. 
-        I am pursuing my Bachelor's degree in computer science and hope to work as a Data Scientist once I graduate. 
-        In my free time I enjoy spending time with my dogs Suki (right) and Sophie (left), building computers, and riding my motorcycle
-        (particularly around the mountains near Lake Kaweah). I also enjoy playing video games on occasion, my favorite of which is
-        the Borderlands series.
-      </p>
-      <p>
-        My first adventure into programming was at the age of 13. I was really into modded Minecraft and one mod in particular, ComputerCraft,
-        was very interesting to me. The mod allowed the use of the Lua programming language to control robots that could interact with the world
-        around them. Through ComputerCraft I learned the basic fundamentals of programming including funcitonal programming, object-oriented programming,
-        and basic abstraction. From here I began to look into other programming languages, primariliy C++ and eventually Python. This early interest led me
-        to pursuing a career in computer science.
-      </p>
+    <div id="content">
     </div>
-    <div id="about-me-images">
-      <img src="images/aboutme/poodles.jpg" class="about-me-images" />
-      <img src="images/aboutme/computer.jpg" class="about-me-images" />
-      <img src="images/aboutme/motorcycle.jpg" class="about-me-images" />
-    </div>
+    <script>display_landing_page();</script>
   </body>
 </html>
