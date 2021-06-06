@@ -12,9 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-/**
- * Adds a random greeting to the page.
- */
 function display_landing_page()
 {
   $("#content").load("/html/about-me.html" );
