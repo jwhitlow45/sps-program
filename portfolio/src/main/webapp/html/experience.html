@@ -1,70 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Jacob Whitlow's Experience</title>
-    <link rel="stylesheet" href="../css/experience.css">
-    <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/utils.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans' type='text/css'>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  </head>
-  <body>
-    <div id="title"><h1>Jacob Whitlow's Experience</h1></div>
-    <!-- Navigation bar start -->
-    <div id="nav-placeholder">
-
+  <div id="experience-header" class="header">
+    <h3>Experience:</h3>
+  </div>
+  <div id="experience-description" class="paragraph">
+    <p>
+      I began working on the California Web Application Project (CIWA) in September of 2020. Having just transferred to Fresno State, I was looking to do work
+      under an instructor during the semester. One day, I received an email from Dr. Aris Athanasios Panagopoulos regarding an opportunity to join his research team.
+      I quickly jumped on the opportunity and started attending his weekly meetings where I learned about the project as a whole and waited to find a role that I would
+      be a good fit for. I soon began working on the database team and became familiar with the languages and technologies we use including Python, MSSQL, and Microsoft Azure.
+      In March of 2021 our team lead left and I was offered his position. I gladly accepted and have since worked as the Database Team Lead, guiding
+      the development and maintenance of the database while working with other teams to meet their needs.
+    </p>
+    <p>
+      The basic premise of CIWA is to prevent the over or under-watering of crop trees across the Central Valley. This helps farmers make more money while helping save
+      water. A value known as the water index is used to show how over or under-watered a tree is. The water index is determined by taking the temperature
+      of the sunlit leaves of the tree. Using a thermal camera can allow taking the temperature of many leaves at once, giving a much more accurate water index than
+      would be possible otherwise. This is the main goal of CIWA. By taking a thermal image of a tree and applying a neural network to pick out sunlit leaves, the average
+      sunlit leaf temperature, and therefore the water index, can be determined extremely quickly. In combination with the historical and current weather data I gather 
+      and manage in our database, the crop yield for a tree can be estimated with a high degree of accuracy.
+    </p>
+  </div>
+  <div class="container">
+    <div id="experience-0">
+      <a id="link-ciwa" href="https://www.apanagopoulos.com/projects">
+        <img id="logo-ciwa" src="../images/logo/logo-ciwa.png" class="experience-images">
+      </a>
     </div>
-    <script>
-    $(function(){
-      $("#nav-placeholder").load("nav.html");
-    });
-    </script>
-    <!-- Navigation bar end -->
-    <div id="experience-header" class="header">
-      <h3>Experience:</h3>
+    <div id="experience-0-text" class="experience">
+      <p><b>Data Science Research Team Lead</b></p>
+      <p><i>California Irrigation Web Application Project</i></p>
+      <p>03/2021 - Current</p>
     </div>
-    <div id="experience-description" class="paragraph">
-      <p>
-        I began working on the California Web Application Project (CIWA) in September of 2020. Having just transferred to Fresno State, I was looking to do work
-        under an instructor during the semester. One day, I received an email from Dr. Aris Athanasios Panagopoulos regarding an opportunity to join his research team.
-        I quickly jumped on the opportunity and started attending his weekly meetings where I learned about the project as a whole and waited to find a role that I would
-        be a good fit for. I soon began working on the database team and became familiar with the languages and technologies we use including Python, MSSQL, and Microsoft Azure.
-        In March of 2021 our team lead left and I was offered his position. I gladly accepted and have since worked as the Database Team Lead, guiding
-        the development and maintenance of the database while working with other teams to meet their needs.
-      </p>
-      <p>
-        The basic premise of CIWA is to prevent the over or under-watering of crop trees across the Central Valley. This helps farmers make more money while helping save
-        water. A value known as the water index is used to show how over or under-watered a tree is. The water index is determined by taking the temperature
-        of the sunlit leaves of the tree. Using a thermal camera can allow taking the temperature of many leaves at once, giving a much more accurate water index than
-        would be possible otherwise. This is the main goal of CIWA. By taking a thermal image of a tree and applying a nerual network to pick out sunlit leaves, the average
-        sunlit leaf temperature, and therefore the water index, can be determined extremely quickly. In combination with the historical and current weather data I gather 
-        and manage in our database, the crop yield for a tree can be estimated with a high degree of accuracy.
-      </p>
+  </div>
+  <div class="container">
+    <div id="experience-1">
+      <a id="link-ciwa" href="https://www.apanagopoulos.com/projects">
+        <img id="logo-ciwa" src="../images/logo/logo-ciwa.png" class="experience-images">
+      </a>
     </div>
-    <div class="container">
-      <div id="experience-0">
-        <a id="link-ciwa" href="https://www.apanagopoulos.com/projects">
-          <img id="logo-ciwa" src="../images/logo/logo-ciwa.png" class="experience-images">
-        </a>
-      </div>
-      <div id="experience-0-text" class="experience">
-        <p><b>Data Science Research Team Lead</b></p>
-        <p><i>California Irrigation Web Application Project</i></p>
-        <p>03/2021 - Current</p>
-      </div>
+    <div id="experience-1-text" class="experience">
+      <p><b>Data Science Researcher</b></p>
+      <p><i>California Irrigation Web Application Project</i></p>
+      <p>09/2020 - 03/2021</p>
     </div>
-    <div class="container">
-      <div id="experience-1">
-        <a id="link-ciwa" href="https://www.apanagopoulos.com/projects">
-          <img id="logo-ciwa" src="../images/logo/logo-ciwa.png" class="experience-images">
-        </a>
-      </div>
-      <div id="experience-1-text" class="experience">
-        <p><b>Data Science Researcher</b></p>
-        <p><i>California Irrigation Web Application Project</i></p>
-        <p>09/2020 - 03/2021</p>
-      </div>
-    </div>
-  </body>
+  </div>
 </html>
