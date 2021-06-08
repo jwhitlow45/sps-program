@@ -2,6 +2,10 @@ html {
   overflow-y: scroll;
 }
 
+#title {
+
+}
+
 #dancing-duck-buddy {
   margin: auto;
   margin-left: 16px;
@@ -14,8 +18,12 @@ html {
 
 #page-heading {
   font-family: 'Open Sans', sans-serif;
+  display: block;
+  color: white;
+  background: #89cff0;
   margin-left: auto;
   margin-right: auto;
+  padding: 2px 8px;
   text-align: center;
-  width: 800px;
+  width: 100%;
 }
