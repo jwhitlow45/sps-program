@@ -14,7 +14,7 @@
 
 async function displayRandomMessage()
 {
-  const responseFromServer = await fetch('/hello');
+  const responseFromServer = await fetch('/messages');
   const textFromResponse = await responseFromServer.text();
   const messageContainer = document.getElementById("random-message");
   messageContainer.innerText = textFromResponse;
