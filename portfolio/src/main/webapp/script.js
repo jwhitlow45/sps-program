@@ -15,9 +15,10 @@
 async function displayRandomMessage()
 {
   const responseFromServer = await fetch('/messages');
-  const textFromResponse = await responseFromServer.text();
+  const textFromResponse = await responseFromServer.json();
   const messageContainer = document.getElementById("random-message");
-  messageContainer.innerText = textFromResponse;
+  var randomInt = Math.floor(Math.random() * 3);
+  messageContainer.innerText = textFromResponse[randomInt];
 } 
 
 function display_landing_page()
