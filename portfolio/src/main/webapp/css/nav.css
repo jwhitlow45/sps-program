@@ -9,6 +9,7 @@
 #link-github {
   display: inline-block;
   border-radius: 16px;
+  padding-left: 32px;
   height: 32px;
   width: 32px;
 }
@@ -16,6 +17,7 @@
 #link-linkedin {
   display: inline-block;
   border-radius: 16px;
+  padding-right: 32px;
   height: 32px;
   width: 32px;
 }
