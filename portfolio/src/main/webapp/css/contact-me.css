@@ -1,0 +1,16 @@
+#contact-me-form {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
+}
+
+#submit-button
+{
+  font-family: 'Open Sans', sans-serif;
+  width: 80px;
+  margin: auto;
+}
