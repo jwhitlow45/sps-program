@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
+  <div id="contact-me" class="header">
+    <h3>Contact Me:</h3>
+  </div>
   <form id="contact-me-form" action="/form-handler" method="POST">
-    <h3 class="header">Contact Me:</h3>
     <p>Name</p>
       <textarea name="client-name" rows="1"></textarea>
     <p>Email</p>
@@ -9,6 +11,8 @@
     <p>Message</p>
       <textarea name="client-message" rows="10"></textarea>
     <br/>
-    <input id="submit-button" type="submit" font="Open Sans"  />
+    <div id="form-submit-button" class="button-container">
+      <input id="submit-button" class="button" type="submit" font="Open Sans"  />
+    </div>
   </form>
 </html>
