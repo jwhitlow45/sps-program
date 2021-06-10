@@ -13,13 +13,3 @@ html {
   text-align: center;
   width: 99%;
 }
-
-#dancing-duck-buddy {
-  margin: auto;
-  margin-left: 16px;
-  margin-right: 16px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: sub;
-  width: 48px;
-}

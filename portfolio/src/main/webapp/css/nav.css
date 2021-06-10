@@ -1,4 +1,4 @@
-#socials {
+#social-bar {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -6,34 +6,28 @@
   margin-bottom: auto;
 }
 
-#link-github {
+.social-links {
   display: inline-block;
   border-radius: 16px;
-  padding-left: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   height: 32px;
   width: 32px;
 }
 
-#link-linkedin {
+.social-logos {
+  width: 32px;
+  border-radius: 50%;
+}
+
+#dancing-duck-buddy {
+  margin: auto;
+  margin-left: 16px;
+  margin-right: 16px;
   display: inline-block;
-  border-radius: 16px;
-  padding-right: 32px;
-  height: 32px;
-  width: 32px;
-}
-
-#logo-github {
-  width: 32px;
-  border-radius: 50%;
-}
-
-#logo-linkedin {
-  width: 32px;
-  border-radius: 50%;
-}
-
-#spacer {
-  width: 32px;
+  text-align: center;
+  vertical-align: sub;
+  width: 48px;
 }
 
 #nav-bar {
