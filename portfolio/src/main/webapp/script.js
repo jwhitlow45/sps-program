@@ -22,7 +22,6 @@ async function displayRandomMessage()
   const numQuotes = Object.keys(textFromResponse).length;
   var randomInt = Math.floor(Math.random() * numQuotes);
   var mostRecentQuote = parseInt(sessionStorage.getItem("mostRecentQuoteIndex"));
-  console.log(mostRecentQuote);
   if(mostRecentQuote == randomInt)  //check if quote is repeating
   {
     randomInt++;            //iterate to next quote
