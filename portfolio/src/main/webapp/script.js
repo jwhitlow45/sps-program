@@ -12,12 +12,23 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+sessionStorage.setItem("mostRecentQuoteIndex", "-1")  //create session storage keeping track of most recent quote
+
 async function displayRandomMessage()
 {
   const responseFromServer = await fetch('/messages');
   const textFromResponse = await responseFromServer.json();
   const messageContainer = document.getElementById("random-message");
-  var randomInt = Math.floor(Math.random() * 3);
+  const numQuotes = Object.keys(textFromResponse).length;
+  var randomInt = Math.floor(Math.random() * numQuotes);
+  var mostRecentQuote = parseInt(sessionStorage.getItem("mostRecentQuoteIndex"));
+  console.log(mostRecentQuote);
+  if(mostRecentQuote == randomInt)  //check if quote is repeating
+  {
+    randomInt++;            //iterate to next quote
+    randomInt %= numQuotes; //prevent randomInt from running off array
+  }
+  sessionStorage.setItem("mostRecentQuoteIndex", randomInt)  //create session storage keeping track of most recent quote
   messageContainer.innerText = textFromResponse[randomInt];
 } 
 
