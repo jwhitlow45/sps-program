@@ -45,14 +45,10 @@ function apply_theme()
   //dark mode implemenetation
   if (localStorage.getItem("darkMode") == "enabled")
     enable_dark_mode();
-  if (localStorage.getItem("darkMode") == "disabled")
+  else if (localStorage.getItem("darkMode") == "disabled")
     disable_dark_mode();
   else
-  {
     localStorage.setItem("darkMode", "disabled");
-    localStorage.getItem("darkMode");
-    console.log("here");
-  }
 }
 
 function enable_dark_mode()
