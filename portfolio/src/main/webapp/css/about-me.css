@@ -13,3 +13,24 @@
   border-radius: 5px;
   background: linear-gradient(#89cff0, transparent, transparent, #89cff0);
 }
+
+#random-message-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#random-message-button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+  margin: auto;
+  color: white;
+  background: #89cff0;
+  padding: 8px 16px;
+  border: 0px;
+}
+
+#random-message-button:hover {
+  background: #6da5c0;
+}

@@ -2,16 +2,6 @@ html {
   overflow-y: scroll;
 }
 
-#dancing-duck-buddy {
-  margin: auto;
-  margin-left: 16px;
-  margin-right: 16px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: sub;
-  width: 48px;
-}
-
 #page-heading {
   font-family: 'Open Sans', sans-serif;
   display: block;
@@ -22,4 +12,14 @@ html {
   padding: 2px 8px;
   text-align: center;
   width: 99%;
+}
+
+#dancing-duck-buddy {
+  margin: auto;
+  margin-left: 16px;
+  margin-right: 16px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: sub;
+  width: 48px;
 }
