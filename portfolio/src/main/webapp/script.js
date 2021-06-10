@@ -35,32 +35,43 @@ function toggle_dark_mode()
 {
   if (localStorage.getItem("darkMode") == "enabled")
     localStorage.setItem("darkMode", "disabled");
-  else
+  else if (localStorage.getItem("darkMode") == "disabled")
     localStorage.setItem("darkMode", "enabled");
+  apply_theme();  
+}
+
+function apply_theme()
+{
+  //dark mode implemenetation
+  if (localStorage.getItem("darkMode") == "enabled")
+    enable_dark_mode();
+  if (localStorage.getItem("darkMode") == "disabled")
+    disable_dark_mode();
+  else
+  {
+    localStorage.setItem("darkMode", "disabled");
+    localStorage.getItem("darkMode");
+    console.log("here");
+  }
 }
 
 function enable_dark_mode()
 {
-  document.body.style.background = "#252526";
-  document.body.style.color = "#FFFFFF";
+  document.body.style.background = "#3c3c3c";
+  document.body.style.color = "#ffffff";
 }
 
 function disable_dark_mode()
 {
-  document.body.style.background = "#252526";
-  document.body.style.color = "#333333";
+  document.body.style.background = "#ffffff";
+  document.body.style.color = "#000000";
 }
 
 function run_on_page_load()
 {
   change_page_content();                      //run function allowing button functionality
   $("#content").load("/html/about-me.html" ); //load landing page
-
-  //dark mode implemenetation
-  if(localStorage.getItem("darkMode") == "enabled")
-    enable_dark_mode();
-  else
-    disable_dark_mode();
+  apply_theme();                              //apply website theme (dark/light mode)
 }
 
 function change_page_content()
