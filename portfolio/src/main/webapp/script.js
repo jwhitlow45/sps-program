@@ -31,6 +31,14 @@ async function displayRandomMessage()
   messageContainer.innerText = textFromResponse[randomInt];
 }
 
+function toggle_dark_mode()
+{
+  if (localStorage.getItem("darkMode") == "enabled")
+    localStorage.setItem("darkMode", "disabled");
+  else
+    localStorage.setItem("darkMode", "enabled");
+}
+
 function enable_dark_mode()
 {
   document.body.style.background = "#252526";
@@ -49,7 +57,7 @@ function run_on_page_load()
   $("#content").load("/html/about-me.html" ); //load landing page
 
   //dark mode implemenetation
-  if(localStorage.getItem('darkMode') == "enabled")
+  if(localStorage.getItem("darkMode") == "enabled")
     enable_dark_mode();
   else
     disable_dark_mode();
