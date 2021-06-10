@@ -29,16 +29,30 @@ async function displayRandomMessage()
   }
   sessionStorage.setItem("mostRecentQuoteIndex", randomInt)  //create session storage keeping track of most recent quote
   messageContainer.innerText = textFromResponse[randomInt];
-} 
-
-function display_landing_page()
-{
-  $("#content").load("/html/about-me.html" );
 }
 
-function load_navigation_bar()
+function enable_dark_mode()
 {
-  $("#navigation-bar").load("/html/nav.html");
+  document.body.style.background = "#252526";
+  document.body.style.color = "#FFFFFF";
+}
+
+function disable_dark_mode()
+{
+  document.body.style.background = "#252526";
+  document.body.style.color = "#333333";
+}
+
+function run_on_page_load()
+{
+  change_page_content();                      //run function allowing button functionality
+  $("#content").load("/html/about-me.html" ); //load landing page
+
+  //dark mode implemenetation
+  if(localStorage.getItem('darkMode') == "enabled")
+    enable_dark_mode();
+  else
+    disable_dark_mode();
 }
 
 function change_page_content()
