@@ -55,12 +55,16 @@ function enable_dark_mode()
 {
   document.body.style.background = "#3c3c3c";
   document.body.style.color = "#ffffff";
+  var darkModeButtonText = document.getElementById("dark-mode-button");
+  darkModeButtonText.innerText = "Light Mode"
 }
 
 function disable_dark_mode()
 {
   document.body.style.background = "#ffffff";
   document.body.style.color = "#000000";
+  var darkModeButtonText = document.getElementById("dark-mode-button");
+  darkModeButtonText.innerText = "Dark Mode"
 }
 
 function run_on_page_load()
