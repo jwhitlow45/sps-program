@@ -18,6 +18,10 @@
   margin-top: 4px;
 }
 
+#dark-mode-button:hover {
+  background-color: #6da5c0;
+}
+
 #dancing-duck-buddy {
   margin: auto;
   margin-left: 16px;
