@@ -3,7 +3,7 @@
   margin-bottom: 0px;
   font-family: 'Open Sans', sans-serif;
   font-size: large;
-  width: 920px;
+  max-width: 920px;
   text-align: left;
 }
 
@@ -17,7 +17,7 @@
   padding-left:10px;
   padding-right:10px;
   border-radius: 5px;
-  width: 870px;
+  max-width: 870px;
 }
 
 .container {

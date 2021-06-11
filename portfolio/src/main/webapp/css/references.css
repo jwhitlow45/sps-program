@@ -1,5 +1,6 @@
 #references-description {
   font-family: 'Open Sans', sans-serif;
   margin: auto;
-  width: 870px;
+  max-width: 870px;
+  padding-left: 10px;
 }
