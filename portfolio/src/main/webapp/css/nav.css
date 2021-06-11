@@ -4,6 +4,29 @@
   margin-right: auto;
   margin-top: 16px;
   margin-bottom: auto;
+  max-width: 1200px;
+}
+
+#dark-mode-button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  background-color: #89cff0;
+  border: none;
+}
+
+#dancing-duck-buddy {
+  margin: auto;
+  margin-left: 16px;
+  margin-right: 16px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: sub;
+  width: 48px;
 }
 
 .social-links {
@@ -18,16 +41,6 @@
 .social-logos {
   width: 32px;
   border-radius: 50%;
-}
-
-#dancing-duck-buddy {
-  margin: auto;
-  margin-left: 16px;
-  margin-right: 16px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: sub;
-  width: 48px;
 }
 
 #nav-bar {
