@@ -22,10 +22,9 @@
 
 .container {
   display: flex;
+  justify-content: center;
+  justify-items: left;
   align-items: center;
-  justify-content: left;
-  margin: auto;
-  width: 800px;
 }
 
 .button-container {

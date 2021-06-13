@@ -15,12 +15,9 @@
   font-family: 'Open Sans', sans-serif;
   font-size: medium;
   text-align: left;
-  padding-bottom: 0px;
 }
 
 .experience-images {
-  text-align: left;
-  margin-right: 50px;
-  padding: 10px;
-  width: 100px;
+  height: 64px;
+  margin: 32px;
 }
