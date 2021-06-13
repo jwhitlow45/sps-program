@@ -23,8 +23,11 @@
 .container {
   display: flex;
   justify-content: center;
-  justify-items: left;
   align-items: center;
+  flex-wrap: wrap;
+  max-width: 970px;
+  min-width: 880px;
+  margin: 0 auto;  
 }
 
 .button-container {
