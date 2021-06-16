@@ -51,5 +51,9 @@ function change_page_content()
     {  
         $("#content").load("html/references.html"); 
     });
+    $("#contact-me-button").click(function()  
+    {  
+        $("#content").load("html/contact-me.html"); 
+    });
   });
 }

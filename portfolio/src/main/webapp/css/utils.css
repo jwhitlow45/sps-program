@@ -3,7 +3,7 @@
   margin-bottom: 0px;
   font-family: 'Open Sans', sans-serif;
   font-size: large;
-  width: 800px;
+  width: 920px;
   text-align: left;
 }
 
@@ -17,7 +17,7 @@
   padding-left:10px;
   padding-right:10px;
   border-radius: 5px;
-  width: 750px;
+  width: 870px;
 }
 
 .container {
@@ -26,4 +26,25 @@
   justify-content: left;
   margin: auto;
   width: 800px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+  margin: auto;
+  color: white;
+  background: #89cff0;
+  padding: 8px 16px;
+  border: 0px;
+}
+
+.button:hover {
+  background: #6da5c0;
 }
