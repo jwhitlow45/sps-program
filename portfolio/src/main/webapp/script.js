@@ -12,6 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+async function displayRandomMessage()
+{
+  const responseFromServer = await fetch('/messages');
+  const textFromResponse = await responseFromServer.text();
+  const messageContainer = document.getElementById("random-message");
+  messageContainer.innerText = textFromResponse;
+} 
+
 function display_landing_page()
 {
   $("#content").load("/html/about-me.html" );
