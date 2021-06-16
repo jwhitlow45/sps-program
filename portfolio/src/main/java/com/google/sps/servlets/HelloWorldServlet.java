@@ -1,4 +1,5 @@
 package com.google.sps.servlets;
+import com.google.gson.Gson;
 
 import java.io.IOException;
 import javax.servlet.annotation.WebServlet;
@@ -20,11 +21,12 @@ public class HelloWorldServlet extends HttpServlet {
                                         "\"We do things not because they are easy, but because we thought they were going to be easy.\"",
                                         "\"6 hours of debugging can save you 5 minutes of reading documentation.\""));
 
-  @Override
+  Gson gson = new Gson();
+  String json = gson.toJson(myStringList);
+  
+                                        @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    response.setContentType("text/html;");                        //set response type
-    Random rd = new Random();                                     //create random object for rng
-    int randomIndex = rd.nextInt(myStringList.size());            //generate random number
-    response.getWriter().println(myStringList.get(randomIndex));  //print random message
+    response.setContentType("application/json;");                        //set response type
+    response.getWriter().println(json);  //print random message
   }
 }
