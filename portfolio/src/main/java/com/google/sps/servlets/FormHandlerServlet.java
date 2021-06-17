@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/*
 @WebServlet("/form-handler")
 public class FormHandlerServlet extends HttpServlet {
 
@@ -25,3 +26,4 @@ public class FormHandlerServlet extends HttpServlet {
     response.sendRedirect("#about-me");
   }
 }
+*/
